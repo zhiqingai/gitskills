@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAXSIZE
+#define name  aizhiqing
 int main(void)
 {
 	int i,fd,size,len;

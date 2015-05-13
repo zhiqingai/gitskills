@@ -28,7 +28,7 @@ int main(void)
 	}
 	else
 		printf("Write:%s\n",buf);
-       // fsync(fd);
+       fsync(fd);
 	lseek( fd, 0, SEEK_SET ); 
 	if((size = read( fd, buf_r, 10))<0){ 
 		perror("read:");
